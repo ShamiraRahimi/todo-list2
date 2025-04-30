@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task-input {
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+}
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    gap: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+/*اینجا استایل خط خوردن رو اضافه کردیم*/
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
